@@ -12,6 +12,8 @@
   "author": "RP",
   "license": "RP-ARTS",
   "dependencies": {
+    "@google-cloud/firestore": "^6.4.1",
+    "@google-cloud/logging": "^10.3.1",
     "csv-parse": "^4.4.5"
   }
 }
