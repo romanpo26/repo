@@ -1,4 +1,18 @@
 {
   "key":"rp",
   "metallic": true
+  "name": "data1",
+  "version": "1.0.0",
+  "description": "This is rest api data transmission test 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "RP",
+  "license": "RP-ARTS",
+  "dependencies": {
+    "csv-parse": "^4.4.5"
+  }
+}
 }
