@@ -1,7 +1,7 @@
 const fs = require('fs');
 const faker = require('faker');
 const {Logging} =require("@google-cloud/logging")l;
-const logNmae="rp-art-createTestData";
+const logName="rp-art-createTestData";
 
 const logging = new Logging();
 const log = logging.log(logName);
