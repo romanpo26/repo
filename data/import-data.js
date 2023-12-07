@@ -48,7 +48,8 @@ async function importCsv(csvFileName) {
   const fileContents = await readFile(csvFileName, 'utf8');
   const records = await parse(fileContents, { columns: true });
   try {
-    await writeToDatabase(records);
+      await writeToFirestore(records);  
+    //await writeToDatabase(records);
   }
   catch (e) {
     console.error(e);
