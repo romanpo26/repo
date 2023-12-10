@@ -1,0 +1,49 @@
+
+	{
+		"A": {
+			"category": { 
+				"id":"1",
+				"name":"Landscapes",
+				"short_name":"A"
+			}, 
+			"works": [
+				{
+					"id":"1",
+					"name":"Boca Palm Trees",
+					"formats": "Digital"
+				}
+			]
+
+		},	
+
+		"B": {
+			"category": { 
+				"id":"2",
+				"name":"Portraits",
+				"short_name":"B"
+			},
+			"works": [
+				{
+					"id":"2",
+					"name":"Maui Dharma Center",
+					"formats": "Digital, Print"
+				} 
+			]
+
+		},
+		"C": {
+			"category": { 
+				"id":"3",
+				"name":"Architecture",
+				"short_name":"C"
+			},
+			"works": [
+				{
+					"id":"3",
+					"name":"Neon Santa Cruz",
+					"formats": "Digital"
+				} 
+			]
+
+		}
+	}
